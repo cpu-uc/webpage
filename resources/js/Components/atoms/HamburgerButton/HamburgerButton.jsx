@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './hamburger-button.css';
+import '@/Components/atoms/HamburgerButton/hamburger-button.css';
 
 const HamburgerBtn = ({classActive, onClick}) => {
   return (

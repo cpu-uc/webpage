@@ -1,6 +1,6 @@
 export const siteData = {
-    siteTitle:"Your Logo",
-    siteLogo:"../img/branding/astro.png",
-    siteDesc:"",
-    siteSlogan:""
+    siteTitle: "CPU",
+    siteLogo: "@assets/cpulogocolor.svg",
+    siteDesc: "",
+    siteSlogan: ""
 }

@@ -91,7 +91,7 @@ export default function ResetPassword({
 
                 <div className="mt-4 flex items-center justify-end">
                     <PrimaryButton className="ms-4" disabled={processing}>
-                        Reset Password
+                        Cambiar Contraseña
                     </PrimaryButton>
                 </div>
             </form>

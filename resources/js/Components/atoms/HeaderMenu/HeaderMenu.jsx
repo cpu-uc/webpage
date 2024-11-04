@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { headerMainMenu } from "@/data/navMenu";
-import "./HeaderMenu.css";
-import HamburgerBtn from "../HamburgerButton/HamburgerButton";
+import "@/Components/atoms/HeaderMenu/HeaderMenu.css";
+import HamburgerBtn from "@/Components/atoms/HamburgerButton/HamburgerButton";
 
 const HeaderMenu = () => {
   // panel debe desplegarse al hacer click en el botonHamburgerMenu

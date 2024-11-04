@@ -1,8 +1,8 @@
 ---
-import "../anchorButton/button.css";
-const {id, text} = Astro.props;
+import '@/Components/atoms/anchorButton/AnchorButton.css';
+const { id, text } = Astro.props;
 ---
 
 <button class="button" type="button" id={id}>
-    {text}
+	{text}
 </button>
