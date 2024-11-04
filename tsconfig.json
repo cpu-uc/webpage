@@ -1,4 +1,6 @@
 {
+    // extender astro/tsconfig.json
+    "extends": "./node_modules/astro/tsconfig.json",
     "compilerOptions": {
         "allowJs": true,
         "module": "ESNext",
@@ -11,10 +13,18 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "noEmit": true,
+        "baseUrl": ".",
         "paths": {
-            "@/*": ["./resources/js/*"],
-            "ziggy-js": ["./vendor/tightenco/ziggy"]
+            "@/*": ["resources/js/*"],
+            "@css/*": ["resources/css/*"],
+            "@assets/*": ["resources/assets/*"],
+            "@views/*": ["resources/views/*"]
         }
     },
-    "include": ["resources/js/**/*.ts", "resources/js/**/*.tsx", "resources/js/**/*.d.ts"]
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.tsx",
+        "resources/js/**/*.d.ts",
+        "resources/js/**/*.astro" // Añadir esta línea para incluir archivos .astro
+    ]
 }

@@ -1,0 +1,12 @@
+---
+import HeaderMenu from '@/Components/atoms/HeaderMenu/HeaderMenu';
+import Logo from '@/Components/atoms/Logo/Logo.astro';
+import '@css/header.css';
+---
+
+<header class="header">
+	<div class="header__container">
+		<Logo />
+		<HeaderMenu client:load />
+	</div>
+</header>
