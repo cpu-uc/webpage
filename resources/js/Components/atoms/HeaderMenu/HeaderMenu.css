@@ -20,6 +20,7 @@
     transform: translateX(100%);
     left: 0;
     background: var(--color-background-header-menu);
+    -webkit-backdrop-filter: blur(22px);
     backdrop-filter: blur(22px);
     min-height: 100dvh;
     padding: 1rem 2rem;
