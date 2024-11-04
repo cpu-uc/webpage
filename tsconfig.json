@@ -1,6 +1,6 @@
 {
     // extender astro/tsconfig.json
-    "extends": "./node_modules/astro/tsconfig.json",
+
     "compilerOptions": {
         "allowJs": true,
         "module": "ESNext",

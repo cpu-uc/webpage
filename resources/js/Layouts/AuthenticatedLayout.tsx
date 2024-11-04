@@ -35,6 +35,13 @@ export default function Authenticated({
                                 >
                                     Panel CPU
                                 </NavLink>
+
+                                <NavLink
+                                    href={route('reservas')}
+                                    active={route().current('reservas')}
+                                >
+                                    Reservas
+                                </NavLink>
                             </div>
                         </div>
 
