@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <meta name="description"
+        content='La Página web de CPU ya esta aquí, se parte de una de las iniciativas estudiantiles más grandes de ingeniería en la Pontificia Universidad Católica de Chile.'>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

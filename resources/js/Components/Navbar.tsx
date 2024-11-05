@@ -1,12 +1,11 @@
 import { Link } from '@inertiajs/react';
-import { PageProps } from '@/types';
+import { User } from '@/types';
 
+interface Auth {
+    user: User;
+}
 
-export default function Navbar({
-    auth,
-    laravelVersion,
-    phpVersion,
-}: PageProps<{ laravelVersion: string; phpVersion: string }>) {
+export default function Navbar({ auth }: { auth: Auth }) {
     return (
         <nav className="-mx-3 flex flex-1 justify-end">
             {auth.user ? (
@@ -34,4 +33,4 @@ export default function Navbar({
             )}
         </nav>
     );
-};
+}

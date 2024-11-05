@@ -4,10 +4,10 @@
     z-index: 1;
     overflow-x: hidden;
     width: 100%;
-  }
+}
 
-  .backgroud:after,
-  .backgroud:before {
+.background:after,
+.background:before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,12 +18,9 @@
     width: 100%;
     overflow-x: hidden;
     z-index: -10;
+}
 
-  }
-
-  .backgroud:before {
-    content: "";
-    position: absolute;
+.background:before {
     background-color: #090c12;
     background-image: radial-gradient(
         37.88% 68.62% at 50% 0,
@@ -61,13 +58,10 @@
     top: -50px;
     left: -50px;
     right: -50px;
-    width:100%;
-  }
+    width: 100%;
+}
 
-
-
-  .background:after {
-    content: "";
-    background-color:var(--color-background-after);
+.background:after {
+    background-color: var(--color-background-after);
     z-index: -3;
-  }
+}

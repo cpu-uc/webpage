@@ -12,8 +12,8 @@ export default defineConfig({
                 '@css': resolve('./resources/css'),
                 '@assets': resolve('./resources/assets'),
                 '@views': resolve('./resources/views'),
+                'src/pages': resolve('./resources/js/Pages'), // Alias para redirigir src/pages a resources/js/Pages
             },
         },
     },
-    output: 'static', // Asegúrate de que la salida sea estática
 });

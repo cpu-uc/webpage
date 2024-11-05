@@ -1,6 +1,6 @@
 const headerMainMenu = [
     { text: "About", href: "#" },
-    { text: "Contact", link: "#" }
+    { text: "contact", link: "#" }
 
 ]
 
