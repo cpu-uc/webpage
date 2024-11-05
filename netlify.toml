@@ -1,0 +1,6 @@
+[build]
+  publish = "public"
+  command = "composer install && npm install && npm run build"
+
+[context.production.environment]
+  PHP_VERSION = "8.3"
