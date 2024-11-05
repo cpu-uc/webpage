@@ -1,6 +1,6 @@
 [build]
-  publish = "dist"
-  command = "composer install && npm install && php artisan serve && npm run dev"
+  publish = "public"
+  command = "composer install && npm install && php artisan migrate && npm run build"
 
 [context.production.environment]
   PHP_VERSION = "8.3"
