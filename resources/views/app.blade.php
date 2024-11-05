@@ -19,7 +19,7 @@
     @vite(['resources/js/app.tsx', "resources/js/Pages/{$page['component']}.tsx"])
     @inertiaHead
     <!-- Icono de la página web -->
-    <link rel="icon" type="image/svg+xml" href="{{ Vite::asset('resources/assets/cpulogocolor.png') }}">
+    <link rel="icon" type="image/png" href="{{ Vite::asset('resources/assets/cpulogocolor.png') }}">
 </head>
 
 <body class="font-sans antialiased">
