@@ -22,4 +22,7 @@ export default defineConfig({
             '@views': resolve(__dirname, 'resources/views'),
         },
     },
+    build: {
+        outDir: 'public/build'
+    },
 });
