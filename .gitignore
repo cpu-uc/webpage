@@ -20,3 +20,9 @@ yarn-error.log
 /.idea
 /.vscode
 /.zed
+
+# Ignorar la carpeta de construcción de Astro
+/dist
+
+# Ignorar la carpeta de caché de Astro
+/.astro

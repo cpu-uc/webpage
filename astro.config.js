@@ -15,4 +15,5 @@ export default defineConfig({
             },
         },
     },
+    output: 'static', // Asegúrate de que la salida sea estática
 });

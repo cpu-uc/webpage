@@ -1,4 +1,3 @@
-import { VscAccount } from "react-icons/vsc";
 import { Link } from '@inertiajs/react';
 import { PageProps } from '@/types';
 
