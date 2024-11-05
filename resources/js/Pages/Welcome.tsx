@@ -10,6 +10,9 @@ import R3 from "@assets/img/resumen/3.png";
 import R4 from "@assets/img/resumen/4.png";
 import R5 from "@assets/img/resumen/5.png";
 import R6 from "@assets/img/resumen/6.png";
+import V1 from "@assets/img/volvimos/1.jpg";
+import V2 from "@assets/img/volvimos/2.jpg";
+import C1 from "@assets/img/cputeayuda/1.jpg";
 
 interface Auth {
     user: User;
@@ -50,6 +53,29 @@ export default function Welcome({ auth }: { auth: Auth }) {
         ],
         Icon: '🌟',
         Link: 'https://linktr.ee/CPUUC'
+    };
+
+    const VolvimosCard = {
+        Title: '¡Volvimos! 🔥',
+        Description:
+        "¡Volvimos este semestre con todo!🥳 Mini resumen de cómo empezamos este segundo semestre con eventos y módulos de trabajo 💜",
+        Images: [
+            { original: V1 },
+            { original: V2 },
+        ],
+        Icon: '🔥',
+        Link: 'https://linktr.ee/cpu_uc?utm_source=linktree_profile_share&ltsid=85b871aa-4995-452d-aa9e-5e853eafa602'
+    };
+
+    const CPUTeAyudaCard = {
+        Title: '¡CPU Te Ayuda! 🤝',
+        Description:
+        "¡CPU Te Ayuda! 🤝 Si eres de LICC o Ingeniería y necesitas un computador para tus ramos, CPU te puede ayudar!. Solo debes rellenar el siguiente formulario para estar entre los posibles seleccionados ¡Estamos aquí para ayudarte! 💜",
+        Images: [
+            { original: C1 },
+        ],
+        Icon: '🤝',
+        Link: 'https://forms.office.com/r/LS7B21p49E'
     };
 
     return (
