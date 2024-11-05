@@ -16,7 +16,7 @@
     <!-- Scripts -->
     @routes
     @viteReactRefresh
-    @vite(['resources/js/app.tsx', "resources/js/Pages/{$page['component']}.tsx"])
+    @vite(['resources/js/app.tsx'])
     @inertiaHead
     <!-- Icono de la página web -->
     <link rel="icon" type="image/png" href="{{ Vite::asset('resources/assets/cpulogocolor.png') }}">
