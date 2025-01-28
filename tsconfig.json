@@ -1,30 +1,5 @@
 {
-    // extender astro/tsconfig.json
-
-    "compilerOptions": {
-        "allowJs": true,
-        "module": "ESNext",
-        "moduleResolution": "bundler",
-        "jsx": "react-jsx",
-        "strict": true,
-        "isolatedModules": true,
-        "target": "ESNext",
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true,
-        "noEmit": true,
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["resources/js/*"],
-            "@css/*": ["resources/css/*"],
-            "@assets/*": ["resources/assets/*"],
-            "@views/*": ["resources/views/*"]
-        }
-    },
-    "include": [
-        "resources/js/**/*.ts",
-        "resources/js/**/*.tsx",
-        "resources/js/**/*.d.ts",
-        "resources/js/**/*.astro" // Añadir esta línea para incluir archivos .astro
-    ]
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
 }
