@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "20"
+
+# Para futuras funciones serverless
+# [functions]
+# directory = "netlify/functions"
